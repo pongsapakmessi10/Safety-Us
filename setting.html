@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="safetyus.png" alt="Logo" class="logo-img">
+    </div>
+    <div class="settings-page">
+        <div class="header">
+            <img src="gear-icon.png" alt="Settings Icon" class="icon">
+            <h1>Settings</h1>
+        </div>
+        <div class="content">
+            <section class="account-settings">
+                <h2>Account Settings</h2>
+                <div class="setting-item">
+                    <span>Safety Us</span>
+                    <span class="arrow">&gt;</span>
+                </div>
+                <div class="setting-item">
+                    <span>Toto</span>
+                    <span class="arrow">&gt;</span>
+                </div>
+                <div class="setting-item">
+                    <span>Fluke</span>
+                    <span class="add">+</span>
+                </div>
+                <div class="setting-item">
+                    <span>Tong</span>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>BaiFern</span>
+                    <label class="switch">
+                        <input type="checkbox" id="dark-mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </section>
+            <section class="more">
+                <h2>More</h2>
+                <div class="setting-item">
+                    <span>About us</span>
+                    <span class="arrow">&gt;</span>
+                </div>
+                <div class="setting-item">
+                    <span>Privacy policy</span>
+                    <span class="arrow">&gt;</span>
+                </div>
+            </section>
+        </div>
+        <div class="buttons">
+            <button class="btn settings">
+                <img src="gear-icon.png" alt="Settings">
+            </button>
+            <button class="btn home" onclick="goToHome()">
+                <img src="home-icon.png" alt="Home">
+            </button>
+            <button class="btn call">
+                <img src="call-icon.png" alt="Call">
+            </button>
+        </div>
+    </div>
+    <script src="setting.js"></script>
+</body>
+</html>
